@@ -1,4 +1,4 @@
-# degrees
+# Degrees
 Algorithm that finds a connection between two actors bases on the movies they have starred in, using BFS.
 
 #### Working:
@@ -9,7 +9,7 @@ In this problem, we’re interested in finding the shortest path between any two
 We can frame this as a search problem: our states are people. Our actions are movies, which take us from one actor to another (it’s true that a movie could take us to multiple different actors, but that’s okay for this problem). Our initial state and goal state are defined by the two people we’re trying to connect. By using breadth-first search, we can find the shortest path from one actor to another.
 
 ## BFS:
-FS is a traversing algorithm where you should start traversing from a selected node (source or starting node) and traverse the graph layerwise thus exploring the neighbour nodes (nodes which are directly connected to source node). You must then move towards the next-level neighbour nodes.
+BFS is a traversing algorithm where you should start traversing from a selected node (source or starting node) and traverse the graph layerwise thus exploring the neighbour nodes (nodes which are directly connected to source node). You must then move towards the next-level neighbour nodes.
 
 As the name BFS suggests, you are required to traverse the graph breadthwise as follows:
 
